@@ -1,0 +1,217 @@
+########### How to Find Python keyword ###########
+import keyowrd
+keyword.kwlist
+
+
+Except 1.True 2. False 3.None Other keyword are in small latter
+
+
+############ Identifiers #################
+Reserved Words 
+
+
+########## Data Type ############ 
+
+x = 10 ==> Value represent the data type
+
+Dynamic Type Language 
+
+
+1.int 
+long ==> not in Python 3 
+2.float
+complex
+bool
+str
+bytes
+bytesarray
+range
+list
+tuple 
+set
+frozenset
+dict
+None
+
+in python every thing is object
+object 
+Where the object is Store to check id(x).
+
+
+
+int ==> to hold integral value  whole numbers ==> 
+decimal form 
+octal 
+binary 
+Hexa form 
+
+
+to display number as binary 
+x = 0b10
+
+to display number as octal 
+x = 0o10
+
+to display number as hexa
+x = 0x10
+
+
+To Convert these value Python having Functions 
+bin(x) ==> to convert the value in to Binary its can contains any type of value
+hex(x) ==> to convert the value in to hexa decimal value 
+oct(x) ==> to convert the value into octa decimal value 
+
+
+float 
+-------------
+x = 134.45
+x = 1.2e3 =====> 1.2*1000 ===> 1.2 * 10 rest 3 
+
+
+complex type
+-----------------
+a + bj
+
+a ==> Real Part
+b ==> Imaginary Part 
+j ==> Squre root of -1 ==> j^2 = -1 
+
+In that real part you can take any type decimal,octa, Hexa any type but at imeginary part you can only desimal anf compulsary j required.
+a = 10+20j
+a.real ==> 10.0
+a.imag ==> 20.0
+
+
+
+
+bool 
+-------
+True and False 
+other then these value python will not accept the bool value.
+True ==> 1
+Falase ==> 0
+
+
+str 
+----
+String data type 
+any sequence of charater 
+'Bhavik' ==> recomended 
+""" ==> for Mullti line 
+"Bhavik" ==> Valid 
+ 
+slice operator 
+[begin:end]
+return substring from begin index to end-1 index 
+
+s = "Bhavik"
+s[1:4] => hav
+
+if you not pecifing end value then it will end with last index.
+s = "Bhavik"
+s[1:]
+havik
+
+if you not specifiing begin value then it will start from begin 
+s = "Bhavik"
+s[:4]
+Bhav
+
+
+[begin:end:step]
+
+s= "bhavikmakwana"
+s[1:6]
+havik
+s[1:6:2]
+hvk
+
+
+s='Bhavik'
+s*3 
+BhavikBhavikBhavik
+
+String repetation 
+
+
+Mutable and Immuutable 
+--------------------------
+1. Every thing in python is an object 
+2. All the fundamental data type : 	int,f,b,c,s immutable
+
+Reusable code is up to 256 int 
+-----------------------------
+x = 257
+y = 257 
+x is y
+false 
+
+Float and complex type are immutable.
+
+
+Bytes 
+---------------
+it represent a group of Byte number just like an array 
+and range is 0 to 256 
+Bytes is immutable object. for that you need to go for bytearray 
+
+
+list 
+============
+1. duplicates are allowed 
+2. Inserion order is preserved 
+3. mutable
+
+tuple 
+========
+1. immutable 
+2. represnet by () in list []
+
+
+range()
+===========
+range is immutable 
+represnt sequence of data type 
+
+set
+==========
+indexing and sclice is not application to set
+{}
+set is immutable and order is not maintaing 
+insertion order is not important  
+duplicates not allowed 
+heterogeneous object is allowed 
+index is not allowed 
+slicing is not allowed 
+growable in nature 
+
+
+frozenset is immutable 
+-------------------------
+same as set
+
+
+dictory
+============
+Map wih key and value 
+
+s = {100 : 'bhavik',200 :'test',30 : 'test24'}
+
+
+
+String Methods List
+=========================
+message = 'Hello World'
+1. len(message) --> length of Message 
+2. message[0] --> get charater of 0 index from message 
+3. messgae[0:5] --> get range of message from 0 index to 5 index not including 5 index 
+4. message.lower() --> convert to lowecase
+5. message.upper() --> convert to uppercase 
+6. message.count('Hello') --> get count of input text
+7. message.find('World') --> give index of input where it is. if its not found it returns -1 
+8. message.replace('World','Universe') --> replacing the word from World to Universe 
+9. dir(message) -> get All the methods from  of message.
+10.help(str) --> get all the document of String 
+
+  
+
